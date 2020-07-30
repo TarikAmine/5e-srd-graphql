@@ -7,6 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://bootswatch.com/4/lumen/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/graphiql/0.13.0/graphiql.min.css" />
     <link rel="stylesheet" href="/css/style.css">
 
     <title>DnD 5e GraphQL</title>
@@ -24,10 +25,7 @@
                     <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/docs">Documentation</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://github.com/TarikAmine/5e-srd-graphql">Github</a>
+                    <a class="nav-link" href="https://github.com/TarikAmine/5e-srd-graphql" target="_blank">Github</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/graphiql">Try Live</a>
@@ -39,12 +37,17 @@
     <div id="hero" class="jumbotron">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-auto text-center">
+                <div class="col-12 col-md-auto text-center my-auto">
                     <img src="/img/logo.png" alt="Logo" id="logo" class="img-fluid"/>
                 </div>
-                <div class="col">
+                <div class="col my-auto">
                     <h1 class="display-4 mt-2">DnD 5e GraphQL API</h1>
-                    <p class="lead mb-0">Query D&D 5th edition SRD database with GraphQL</p>
+                    <p class="lead mb-0">
+                        Query D&D 5th edition SRD database with GraphQL
+                    </p>
+                </div>
+                <div class="col-12 col-lg-5 text-center px-0 pt-5 px-lg-3 pt-lg-0 my-auto">
+                    <img src="/img/example.png" alt="GraphQL Example" class="img-fluid img-thumbnail"/>
                 </div>
             </div>
         </div>
@@ -73,20 +76,36 @@
                 </a>
             </div>
         </div>
-        <hr/>
         <div class="row">
             <div class="col">
-
+                <h3 class="border-bottom font-weight-light text-muted">Examples :</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="GraphqlCodeBlock"><pre><span class="punctuation">{</span></pre><pre><span class="ws">  </span><span class="property">SpellList</span><span class="ws"> </span><span class="punctuation">{</span></pre><pre><span class="ws">    </span><span class="property">name</span></pre><pre><span class="ws">    </span><span class="property">school</span><span class="ws"> </span><span class="punctuation">{</span></pre><pre><span class="ws">      </span><span class="property">name</span></pre><pre><span class="ws">    </span><span class="punctuation">}</span></pre><pre><span class="ws">    </span><span class="property">classes</span><span class="ws"> </span><span class="punctuation">{</span></pre><pre><span class="ws">      </span><span class="property">name</span></pre><pre><span class="ws">    </span><span class="punctuation">}</span></pre><pre><span class="ws">  </span><span class="punctuation">}</span></pre><pre><span class="punctuation">}</span></pre></div>
+                    </div>
+                    <a target="_blank" class="card-footer card-link text-dark py-1 text-center" href="/graphiql?query=%7B%0A%20%20SpellList%20%7B%0A%20%20%20%20name%0A%20%20%20%20school%20%7B%0A%20%20%20%20%20%20name%0A%20%20%20%20%7D%0A%20%20%20%20classes%20%7B%0A%20%20%20%20%20%20name%0A%20%20%20%20%7D%0A%20%20%7D%0A%7D%0A">
+                        Try it
+                    </a>
+                </div>
             </div>
             <div class="col">
-
-            </div>
-            <div class="col">
-
+                <div class="card">
+                    <div class="card-body">
+                        <div class="GraphqlCodeBlock"><pre><span class="punctuation">{</span></pre><pre><span class="ws">  </span><span class="property">Skill</span><span class="punctuation">(</span><span class="attribute">index</span><span class="punctuation">:</span><span class="ws"> </span><span class="string">"stealth"</span><span class="punctuation">)</span><span class="ws"> </span><span class="punctuation">{</span></pre><pre><span class="ws">    </span><span class="property">index</span></pre><pre><span class="ws">    </span><span class="property">name</span></pre><pre><span class="ws">    </span><span class="property">ability_score</span><span class="ws"> </span><span class="punctuation">{</span></pre><pre><span class="ws">      </span><span class="property">name</span></pre><pre><span class="ws">      </span><span class="property">full_name</span></pre><pre><span class="ws">    </span><span class="punctuation">}</span></pre><pre><span class="ws">  </span><span class="punctuation">}</span></pre><pre><span class="punctuation">}</span></pre></div>
+                    </div>
+                    <a target="_blank" class="card-footer card-link text-dark py-1 text-center" href='/graphiql?query=%7B%0A%20%20Skill(index%3A%20"stealth")%20%7B%0A%20%20%20%20index%0A%20%20%20%20name%0A%20%20%20%20ability_score%20%7B%0A%20%20%20%20%20%20name%0A%20%20%20%20%20%20full_name%0A%20%20%20%20%7D%0A%20%20%7D%0A%7D%0A'>
+                        Try it
+                    </a>
+                </div>
             </div>
         </div>
     </div>
 </div>
+<h1>Hello, world!</h1>
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
