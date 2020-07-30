@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5484f5116aabfa4139b20cc9cb72f5f2",
+    "content-hash": "01df1d9b4be6cb7e03d73509c32fe271",
     "packages": [
         {
             "name": "brick/math",
@@ -1516,13 +1516,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/jenssegers/laravel-mongodb/zipball/ec89233a1892a86234731368578e445b9f07c6a6",
                 "reference": "ec89233a1892a86234731368578e445b9f07c6a6",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "illuminate/container": "^7.0",
@@ -1682,13 +1676,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/mongodb/mongo-php-library/zipball/4bb040c620ab95c487d05d5ff50cbc92fa68e920",
                 "reference": "4bb040c620ab95c487d05d5ff50cbc92fa68e920",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "ext-hash": "*",
@@ -5886,7 +5874,8 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": "^7.2.5"
+        "php": "^7.2.5",
+        "ext-json": "*"
     },
     "platform-dev": []
 }
