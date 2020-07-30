@@ -1,5 +1,7 @@
 <?php
 
+use Jenssegers\Mongodb\MongodbServiceProvider;
+
 require_once __DIR__.'/../vendor/autoload.php';
 
 (new Laravel\Lumen\Bootstrap\LoadEnvironmentVariables(
@@ -22,6 +24,9 @@ date_default_timezone_set(env('APP_TIMEZONE', 'UTC'));
 $app = new Laravel\Lumen\Application(
     dirname(__DIR__)
 );
+
+// load the MongodbServiceProvider before Facades or Eloquent is initialized.
+$app->register(Jenssegers\Mongodb\MongodbServiceProvider::class);
 
 $app->withFacades();
 
@@ -60,6 +65,7 @@ $app->singleton(
 */
 
 $app->configure('app');
+$app->configure('database');
 $app->configure('graphql');
 
 /*
@@ -96,7 +102,6 @@ $app->configure('graphql');
 // $app->register(App\Providers\AuthServiceProvider::class);
 // $app->register(App\Providers\EventServiceProvider::class);
 $app->register(Rebing\GraphQL\GraphQLLumenServiceProvider::class);
-$app->register(Jenssegers\Mongodb\MongodbServiceProvider::class);
 
 /*
 |--------------------------------------------------------------------------
