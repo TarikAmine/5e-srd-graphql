@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4be8fced66fbffeff2568a82e343bfc0",
+    "content-hash": "0a19e9a180db3c3bae1a31560c1576cb",
     "packages": [
         {
             "name": "brick/math",
@@ -18,13 +18,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/brick/math/zipball/9b08d412b9da9455b210459ff71414de7e6241cd",
                 "reference": "9b08d412b9da9455b210459ff71414de7e6241cd",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "ext-json": "*",
@@ -70,13 +64,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/doctrine/inflector/zipball/9cf661f4eb38f7c881cac67c75ea9b00bf97b210",
                 "reference": "9cf661f4eb38f7c881cac67c75ea9b00bf97b210",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": "^7.2 || ^8.0"
@@ -153,13 +141,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/doctrine/lexer/zipball/e864bbf5904cb8f5bb334f99209b48018522f042",
                 "reference": "e864bbf5904cb8f5bb334f99209b48018522f042",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": "^7.2 || ^8.0"
@@ -221,13 +203,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/dragonmantank/cron-expression/zipball/72b6fbf76adb3cf5bc0db68559b33d41219aba27",
                 "reference": "72b6fbf76adb3cf5bc0db68559b33d41219aba27",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": "^7.0"
@@ -281,13 +257,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/cfa3d44471c7f5bfb684ac2b0da7114283d78441",
                 "reference": "cfa3d44471c7f5bfb684ac2b0da7114283d78441",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "doctrine/lexer": "^1.0.1",
@@ -345,13 +315,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/illuminate/auth/zipball/aef766aa6c094c68db2164d88133fc64dfe85ed3",
                 "reference": "aef766aa6c094c68db2164d88133fc64dfe85ed3",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "illuminate/contracts": "^7.0",
@@ -402,13 +366,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/illuminate/broadcasting/zipball/9d00720f6c381824250dbca538b629877bfb2cd3",
                 "reference": "9d00720f6c381824250dbca538b629877bfb2cd3",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "ext-json": "*",
@@ -459,13 +417,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/illuminate/bus/zipball/189204f93889677bfc4aec2a3d2c7aa94c76c240",
                 "reference": "189204f93889677bfc4aec2a3d2c7aa94c76c240",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "illuminate/contracts": "^7.0",
@@ -513,13 +465,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/illuminate/cache/zipball/b28b43e1cd4f7a336a68b64d64ff4809838bade9",
                 "reference": "b28b43e1cd4f7a336a68b64d64ff4809838bade9",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "illuminate/contracts": "^7.0",
@@ -570,13 +516,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/illuminate/config/zipball/d1e898de7a0cefe9ce2c94dede6679839e6a7b39",
                 "reference": "d1e898de7a0cefe9ce2c94dede6679839e6a7b39",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "illuminate/contracts": "^7.0",
@@ -620,13 +560,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/illuminate/console/zipball/12b52d7fd87719a3cabf3f269c14c0c496e78a1a",
                 "reference": "12b52d7fd87719a3cabf3f269c14c0c496e78a1a",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "illuminate/contracts": "^7.0",
@@ -680,13 +614,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/illuminate/container/zipball/42d4242eaad399ec63aea39ea5976f342a799411",
                 "reference": "42d4242eaad399ec63aea39ea5976f342a799411",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "illuminate/contracts": "^7.0",
@@ -733,13 +661,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/illuminate/contracts/zipball/37a76782aef1bb83680143c4283b1bf3db751e96",
                 "reference": "37a76782aef1bb83680143c4283b1bf3db751e96",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": "^7.2.5",
@@ -783,13 +705,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/illuminate/database/zipball/5eca4637d5f88efa27c72e99114e1f1a9c04e811",
                 "reference": "5eca4637d5f88efa27c72e99114e1f1a9c04e811",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "ext-json": "*",
@@ -851,13 +767,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/illuminate/encryption/zipball/acf3f9f52a9abcb46e9c50911bb8f1c37d10edcb",
                 "reference": "acf3f9f52a9abcb46e9c50911bb8f1c37d10edcb",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "ext-json": "*",
@@ -904,13 +814,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/illuminate/events/zipball/14b21444c04c3052cffbd76e0862b23fdae5fc19",
                 "reference": "14b21444c04c3052cffbd76e0862b23fdae5fc19",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "illuminate/container": "^7.0",
@@ -955,13 +859,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/illuminate/filesystem/zipball/d5d7739e23a760b0fa56f64c0f7382a72e8ee86a",
                 "reference": "d5d7739e23a760b0fa56f64c0f7382a72e8ee86a",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "illuminate/contracts": "^7.0",
@@ -1016,13 +914,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/illuminate/hashing/zipball/21aeeb27e608b8026c510688b8624ccaad7cf499",
                 "reference": "21aeeb27e608b8026c510688b8624ccaad7cf499",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "illuminate/contracts": "^7.0",
@@ -1066,13 +958,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/illuminate/http/zipball/45827b5de9e5c85338341cb69adb1276f8ad390f",
                 "reference": "45827b5de9e5c85338341cb69adb1276f8ad390f",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "ext-json": "*",
@@ -1124,13 +1010,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/illuminate/log/zipball/53c5e2b2ffbf5138488893d3c2a3a249de4a5b7b",
                 "reference": "53c5e2b2ffbf5138488893d3c2a3a249de4a5b7b",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "illuminate/contracts": "^7.0",
@@ -1175,13 +1055,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/illuminate/pagination/zipball/58d6613e19d0923a85a228289de1736452285e1b",
                 "reference": "58d6613e19d0923a85a228289de1736452285e1b",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "ext-json": "*",
@@ -1226,13 +1100,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/illuminate/pipeline/zipball/1a7ef33dec9cbb73757f0654ae48d997944a4d3f",
                 "reference": "1a7ef33dec9cbb73757f0654ae48d997944a4d3f",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "illuminate/contracts": "^7.0",
@@ -1276,13 +1144,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/illuminate/queue/zipball/3559e97a90d4830c6e6aa257a6594af53f2b22d6",
                 "reference": "3559e97a90d4830c6e6aa257a6594af53f2b22d6",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "ext-json": "*",
@@ -1342,13 +1204,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/illuminate/session/zipball/dbd4c4b519a0c0c3288549f3d360c89b8f12ce9e",
                 "reference": "dbd4c4b519a0c0c3288549f3d360c89b8f12ce9e",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "ext-json": "*",
@@ -1399,13 +1255,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/illuminate/support/zipball/138d67507a697c3fff06710af2df7452d0fafb09",
                 "reference": "138d67507a697c3fff06710af2df7452d0fafb09",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "doctrine/inflector": "^1.4|^2.0",
@@ -1467,13 +1317,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/illuminate/testing/zipball/1093b01e25316811463c42db1488d899c74ef461",
                 "reference": "1093b01e25316811463c42db1488d899c74ef461",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "illuminate/contracts": "^7.0",
@@ -1525,13 +1369,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/illuminate/translation/zipball/74c6c0c15efc2a3e1a7e8b893dcbe68007467ea6",
                 "reference": "74c6c0c15efc2a3e1a7e8b893dcbe68007467ea6",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "ext-json": "*",
@@ -1577,13 +1415,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/illuminate/validation/zipball/4c36e967721c55d02678d27718cfbd07c9ef25b5",
                 "reference": "4c36e967721c55d02678d27718cfbd07c9ef25b5",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "egulias/email-validator": "^2.1.10",
@@ -1636,13 +1468,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/illuminate/view/zipball/df4d0edaec45e9800ea457189c10cef2237066fa",
                 "reference": "df4d0edaec45e9800ea457189c10cef2237066fa",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "ext-json": "*",
@@ -1690,13 +1516,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/lumen-framework/zipball/8e0d54c17a81fb2c6815d2c656f59913047b8d69",
                 "reference": "8e0d54c17a81fb2c6815d2c656f59913047b8d69",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "dragonmantank/cron-expression": "^2.0",
@@ -1787,13 +1607,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/Seldaek/monolog/zipball/f9eee5cec93dfb313a38b6b288741e84e53f02d5",
                 "reference": "f9eee5cec93dfb313a38b6b288741e84e53f02d5",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=7.2",
@@ -1874,13 +1688,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/1f61206de973d67f36ce50f041c792ddac663c3e",
                 "reference": "1f61206de973d67f36ce50f041c792ddac663c3e",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "ext-json": "*",
@@ -1959,13 +1767,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/nikic/FastRoute/zipball/181d480e08d9476e61381e04a71b34dc0432e812",
                 "reference": "181d480e08d9476e61381e04a71b34dc0432e812",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=5.4.0"
@@ -2011,13 +1813,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/opis/closure/zipball/dec9fc5ecfca93f45cd6121f8e6f14457dff372c",
                 "reference": "dec9fc5ecfca93f45cd6121f8e6f14457dff372c",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": "^5.4 || ^7.0"
@@ -2078,13 +1874,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/paragonie/random_compat/zipball/84b4dfb120c6f9b4ff7b3685f9b8f1aa365a0c95",
                 "reference": "84b4dfb120c6f9b4ff7b3685f9b8f1aa365a0c95",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": "^7"
@@ -2129,13 +1919,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/schmittjoh/php-option/zipball/994ecccd8f3283ecf5ac33254543eb0ac946d525",
                 "reference": "994ecccd8f3283ecf5ac33254543eb0ac946d525",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": "^5.5.9 || ^7.0 || ^8.0"
@@ -2190,13 +1974,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/php-fig/container/zipball/b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
                 "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=5.3.0"
@@ -2245,13 +2023,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/php-fig/event-dispatcher/zipball/dbefd12671e8a14ec7f180cab83036ed26714bb0",
                 "reference": "dbefd12671e8a14ec7f180cab83036ed26714bb0",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=7.2.0"
@@ -2297,13 +2069,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/php-fig/log/zipball/0f73288fd15629204f9d42b7055f72dacbe811fc",
                 "reference": "0f73288fd15629204f9d42b7055f72dacbe811fc",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=5.3.0"
@@ -2350,13 +2116,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/php-fig/simple-cache/zipball/408d5eafb83c57f6365a3ca330ff23aa4a5fa39b",
                 "reference": "408d5eafb83c57f6365a3ca330ff23aa4a5fa39b",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=5.3.0"
@@ -2404,13 +2164,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/ramsey/collection/zipball/925ad8cf55ba7a3fc92e332c58fd0478ace3e1ca",
                 "reference": "925ad8cf55ba7a3fc92e332c58fd0478ace3e1ca",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": "^7.2"
@@ -2471,13 +2225,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/ramsey/uuid/zipball/988dbefc7878d0a35f12afb4df1f7dd0bd153c43",
                 "reference": "988dbefc7878d0a35f12afb4df1f7dd0bd153c43",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "brick/math": "^0.8",
@@ -2547,6 +2295,99 @@
             "time": "2020-07-28T16:51:01+00:00"
         },
         {
+            "name": "rebing/graphql-laravel",
+            "version": "5.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rebing/graphql-laravel.git",
+                "reference": "255047c6905351176955cc6e119d2cf75c9303ac"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rebing/graphql-laravel/zipball/255047c6905351176955cc6e119d2cf75c9303ac",
+                "reference": "255047c6905351176955cc6e119d2cf75c9303ac",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "ext-json": "*",
+                "illuminate/contracts": "5.5.*|5.6.*|5.7.*|5.8.*|^6.0|^7.0",
+                "illuminate/support": "5.5.*|5.6.*|5.7.*|5.8.*|^6.0|^7.0",
+                "php": ">= 7.1",
+                "webonyx/graphql-php": "^0.13"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.15",
+                "matt-allan/laravel-code-style": "0.5.0",
+                "mockery/mockery": "^1.2",
+                "nunomaduro/larastan": "0.5.0",
+                "orchestra/testbench": "3.5.*|3.6.*|3.7.*|3.8.*|3.9.*|4.0.*|5.0.*",
+                "phpstan/phpstan": "0.12.8",
+                "phpunit/phpunit": "^5.5|~6.0|~7.0|~8.0"
+            },
+            "type": "project",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Rebing\\GraphQL\\GraphQLServiceProvider"
+                    ],
+                    "aliases": {
+                        "GraphQL": "Rebing\\GraphQL\\Support\\Facades\\GraphQL"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Rebing\\GraphQL\\": "src/"
+                }
+            },
+            "notification-url": "https://repo.repman.io/downloads",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Rebing OÜ",
+                    "homepage": "http://www.rebing.ee",
+                    "role": "Company"
+                },
+                {
+                    "name": "Mikk Mihkel Nurges",
+                    "email": "mikk.nurges@rebing.ee",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Folklore",
+                    "email": "info@atelierfolklore.ca",
+                    "homepage": "http://atelierfolklore.ca"
+                },
+                {
+                    "name": "David Mongeau-Petitpas",
+                    "email": "dmp@atelierfolklore.ca",
+                    "homepage": "http://mongo.ca",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Markus Fischer",
+                    "email": "markus@fischer.name",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Laravel wrapper for PHP GraphQL",
+            "keywords": [
+                "framework",
+                "graphql",
+                "laravel",
+                "react"
+            ],
+            "time": "2020-07-02T16:02:34+00:00"
+        },
+        {
             "name": "symfony/console",
             "version": "v5.1.3",
             "source": {
@@ -2558,13 +2399,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/console/zipball/2226c68009627934b8cfc01260b4d287eab070df",
                 "reference": "2226c68009627934b8cfc01260b4d287eab070df",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=7.2.5",
@@ -2643,13 +2478,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/5e20b83385a77593259c9f8beb2c43cd03b2ac14",
                 "reference": "5e20b83385a77593259c9f8beb2c43cd03b2ac14",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=7.1"
@@ -2699,13 +2528,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/error-handler/zipball/4a0d1673a4731c3cb2dea3580c73a676ecb9ed4b",
                 "reference": "4a0d1673a4731c3cb2dea3580c73a676ecb9ed4b",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=7.2.5",
@@ -2762,13 +2585,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/7827d55911f91c070fc293ea51a06eec80797d76",
                 "reference": "7827d55911f91c070fc293ea51a06eec80797d76",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=7.2.5",
@@ -2840,13 +2657,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/event-dispatcher-contracts/zipball/f6f613d74cfc5a623fc36294d3451eb7fa5a042b",
                 "reference": "f6f613d74cfc5a623fc36294d3451eb7fa5a042b",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=7.2.5",
@@ -2908,13 +2719,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/finder/zipball/4298870062bfc667cb78d2b379be4bf5dec5f187",
                 "reference": "4298870062bfc667cb78d2b379be4bf5dec5f187",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=7.2.5"
@@ -2963,13 +2768,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/http-foundation/zipball/1f0d6627e680591c61e9176f04a0dc887b4e6702",
                 "reference": "1f0d6627e680591c61e9176f04a0dc887b4e6702",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=7.2.5",
@@ -3030,13 +2829,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/http-kernel/zipball/d6dd8f6420e377970ddad0d6317d4ce4186fc6b3",
                 "reference": "d6dd8f6420e377970ddad0d6317d4ce4186fc6b3",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=7.2.5",
@@ -3135,13 +2928,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/mime/zipball/149fb0ad35aae3c7637b496b38478797fa6a7ea6",
                 "reference": "149fb0ad35aae3c7637b496b38478797fa6a7ea6",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=7.2.5",
@@ -3204,13 +2991,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/1c302646f6efc070cd46856e600e5e0684d6b454",
                 "reference": "1c302646f6efc070cd46856e600e5e0684d6b454",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
@@ -3272,13 +3053,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/polyfill-intl-grapheme/zipball/b740103edbdcc39602239ee8860f0f45a8eb9aa5",
                 "reference": "b740103edbdcc39602239ee8860f0f45a8eb9aa5",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
@@ -3342,13 +3117,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/polyfill-intl-idn/zipball/bc6549d068d0160e0f10f7a5a23c7d1406b95ebe",
                 "reference": "bc6549d068d0160e0f10f7a5a23c7d1406b95ebe",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3",
@@ -3419,13 +3188,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/polyfill-intl-normalizer/zipball/37078a8dd4a2a1e9ab0231af7c6cb671b2ed5a7e",
                 "reference": "37078a8dd4a2a1e9ab0231af7c6cb671b2ed5a7e",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
@@ -3492,13 +3255,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/a6977d63bf9a0ad4c65cd352709e230876f9904a",
                 "reference": "a6977d63bf9a0ad4c65cd352709e230876f9904a",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
@@ -3561,13 +3318,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/polyfill-php70/zipball/0dd93f2c578bdc9c72697eaa5f1dd25644e618d3",
                 "reference": "0dd93f2c578bdc9c72697eaa5f1dd25644e618d3",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "paragonie/random_compat": "~1.0|~2.0|~9.99",
@@ -3630,13 +3381,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/polyfill-php72/zipball/639447d008615574653fb3bc60d1986d7172eaae",
                 "reference": "639447d008615574653fb3bc60d1986d7172eaae",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
@@ -3695,13 +3440,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/polyfill-php73/zipball/fffa1a52a023e782cdcc221d781fe1ec8f87fcca",
                 "reference": "fffa1a52a023e782cdcc221d781fe1ec8f87fcca",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
@@ -3763,13 +3502,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/d87d5766cbf48d72388a9f6b85f280c8ad51f981",
                 "reference": "d87d5766cbf48d72388a9f6b85f280c8ad51f981",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=7.0.8"
@@ -3835,13 +3568,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/process/zipball/1864216226af21eb76d9477f691e7cbf198e0402",
                 "reference": "1864216226af21eb76d9477f691e7cbf198e0402",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=7.2.5",
@@ -3891,13 +3618,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/service-contracts/zipball/58c7475e5457c5492c26cc740cc0ad7464be9442",
                 "reference": "58c7475e5457c5492c26cc740cc0ad7464be9442",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=7.2.5",
@@ -3959,13 +3680,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/string/zipball/f629ba9b611c76224feb21fe2bcbf0b6f992300b",
                 "reference": "f629ba9b611c76224feb21fe2bcbf0b6f992300b",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=7.2.5",
@@ -4036,13 +3751,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/translation/zipball/4b9bf719f0fa5b05253c37fc7b335337ec7ec427",
                 "reference": "4b9bf719f0fa5b05253c37fc7b335337ec7ec427",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=7.2.5",
@@ -4120,13 +3829,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/translation-contracts/zipball/616a9773c853097607cf9dd6577d5b143ffdcd63",
                 "reference": "616a9773c853097607cf9dd6577d5b143ffdcd63",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=7.2.5"
@@ -4187,13 +3890,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/var-dumper/zipball/2ebe1c7bb52052624d6dc1250f4abe525655d75a",
                 "reference": "2ebe1c7bb52052624d6dc1250f4abe525655d75a",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=7.2.5",
@@ -4269,13 +3966,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/572af79d913627a9d70374d27a6f5d689a35de32",
                 "reference": "572af79d913627a9d70374d27a6f5d689a35de32",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": "^5.5.9 || ^7.0 || ^8.0",
@@ -4339,13 +4030,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/voku/portable-ascii/zipball/25bcbf01678930251fd572891447d9e318a6e2b8",
                 "reference": "25bcbf01678930251fd572891447d9e318a6e2b8",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
+                "shasum": ""
             },
             "require": {
                 "php": ">=7.0.0"
@@ -4380,6 +4065,64 @@
                 "php"
             ],
             "time": "2020-07-22T23:32:04+00:00"
+        },
+        {
+            "name": "webonyx/graphql-php",
+            "version": "v0.13.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/webonyx/graphql-php.git",
+                "reference": "d9a94fddcad0a35d4bced212b8a44ad1bc59bdf3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/webonyx/graphql-php/zipball/d9a94fddcad0a35d4bced212b8a44ad1bc59bdf3",
+                "reference": "d9a94fddcad0a35d4bced212b8a44ad1bc59bdf3",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://repo.repman.io/dists/%package%/%version%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "php": "^7.1||^8.0"
+            },
+            "require-dev": {
+                "doctrine/coding-standard": "^6.0",
+                "phpbench/phpbench": "^0.14.0",
+                "phpstan/phpstan": "^0.11.4",
+                "phpstan/phpstan-phpunit": "^0.11.0",
+                "phpstan/phpstan-strict-rules": "^0.11.0",
+                "phpunit/phpcov": "^5.0",
+                "phpunit/phpunit": "^7.2",
+                "psr/http-message": "^1.0",
+                "react/promise": "2.*"
+            },
+            "suggest": {
+                "psr/http-message": "To use standard GraphQL server",
+                "react/promise": "To leverage async resolving on React PHP platform"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "GraphQL\\": "src/"
+                }
+            },
+            "notification-url": "https://repo.repman.io/downloads",
+            "license": [
+                "MIT"
+            ],
+            "description": "A PHP port of GraphQL reference implementation",
+            "homepage": "https://github.com/webonyx/graphql-php",
+            "keywords": [
+                "api",
+                "graphql"
+            ],
+            "time": "2020-07-02T05:49:25+00:00"
         }
     ],
     "packages-dev": [
