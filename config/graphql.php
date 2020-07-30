@@ -127,7 +127,7 @@ return [
                 'Spellcasting' => \App\GraphQL\Queries\SpellcastingQuery::class,
                 'SpellcastingList' => \App\GraphQL\Queries\SpellcastingListQuery::class,
                 'Spell' => \App\GraphQL\Queries\SpellQuery::class,
-                'spellList' => \App\GraphQL\Queries\SpellListQuery::class,
+                'SpellList' => \App\GraphQL\Queries\SpellListQuery::class,
                 'StartingEquipment' => \App\GraphQL\Queries\StartingEquipmentQuery::class,
                 'StartingEquipmentList' => \App\GraphQL\Queries\StartingEquipmentListQuery::class,
                 'SubClass' => \App\GraphQL\Queries\SubclassQuery::class,
