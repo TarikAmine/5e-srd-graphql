@@ -28,7 +28,7 @@ class SkillType extends GraphQLType
                     return AbilityScore::where('url', $root->ability_score['url'])->first();
                 }
             ],
-            'url  '         => ['type' => Type::string()],
+            'url'         => ['type' => Type::string()],
         ];
     }
 }

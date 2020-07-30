@@ -38,7 +38,7 @@ class SpellcastingType extends GraphQLType
                 'type'          => Type::listOf(GraphQL::type('Info')),
                 'resolve' => function($root) { return $root->info;}
             ],
-            'url  '         => ['type' => Type::string()],
+            'url'         => ['type' => Type::string()],
         ];
     }
 }
