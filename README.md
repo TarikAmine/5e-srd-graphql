@@ -1,6 +1,6 @@
 # DnD 5e GraphQL API
 Query D&D 5th edition SRD database with GraphQL
-![Logo](http://dnd5e-graphql.com/img/logo.png)
+![Logo](http://dnd5e-graphql.com/img/logo.png?20200731)
 
 this is a GraphQL schema built using Lumen querying a MongoDB database for all your D&D 5th edition data needs. Data is seeded from this awesome project [bagelbits/5e-database](https://github.com/bagelbits/5e-database)
 
