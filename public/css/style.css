@@ -1,7 +1,21 @@
 body {
     font-size: 16px;
+    background-color: #ecf0f1;
 }
 
 #logo {
-    width: 100px;
+    max-width: 120px;
+}
+
+#hero, #navbar {
+    background-color: #34495e;
+    color: #ecf0f1;
+    border: 0;
+    border-radius: 0; 
+    -webkit-box-shadow: unset;
+    box-shadow: unset;
+}
+
+.display-4 {
+    font-size: 3rem;
 }
