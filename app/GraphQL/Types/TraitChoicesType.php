@@ -22,7 +22,7 @@ class TraitChoicesType extends GraphQLType
             'choose' => ['type' => Type::int()],
             'type' => ['type' => Type::string()],
             'from' => [
-                'type' => Type::listOf(GraphQL::type('race')),
+                'type' => Type::listOf(GraphQL::type('Race')),
                 'resolve' => function($root) {
                     return RacialTrait::whereIn('url', array_pluck($root['from'], 'url'))->get();
                 }

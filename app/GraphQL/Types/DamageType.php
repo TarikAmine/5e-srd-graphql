@@ -20,7 +20,7 @@ class DamageType extends GraphQLType
         return [
             'damage_dice'         => ['type' => Type::string()],
             'damage_type' => [
-                'type' => GraphQL::type('equipment'),
+                'type' => GraphQL::type('Equipment'),
                 'resolve' => function($root) {
                     return \App\Models\DamageType::where('url', $root['damage_type']['url'])->first();
                 }

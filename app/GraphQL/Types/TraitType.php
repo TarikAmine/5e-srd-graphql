@@ -22,13 +22,13 @@ class TraitType extends GraphQLType
             'index'         => ['type' => Type::nonNull(Type::string())],
             'name'          => ['type' => Type::string()],
             'races'         => [
-                'type' => Type::listOf(GraphQL::type('race')),
+                'type' => Type::listOf(GraphQL::type('Race')),
                 'resolve' => function($root) {
                     return Race::whereIn('url', array_pluck($root->races, 'url'))->get();
                 }
             ],
             'subraces'       => [
-                'type' => Type::listOf(GraphQL::type('subRace')),
+                'type' => Type::listOf(GraphQL::type('Subrace')),
                 'resolve' => function($root) {
                     return Race::whereIn('url', array_pluck($root->subraces, 'url'))->get();
                 }

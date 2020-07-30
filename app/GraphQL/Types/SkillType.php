@@ -23,7 +23,7 @@ class SkillType extends GraphQLType
             'name'          => ['type' => Type::string()],
             'desc'          => ['type' => Type::listOf(Type::string())],
             'ability_score' => [
-                'type' => GraphQL::type('abilityScore'),
+                'type' => GraphQL::type('AbilityScore'),
                 'resolve' => function($root) {
                     return AbilityScore::where('url', $root->ability_score['url'])->first();
                 }

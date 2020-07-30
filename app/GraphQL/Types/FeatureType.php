@@ -25,13 +25,13 @@ class FeatureType extends GraphQLType
             'desc'          => ['type' => Type::listOf(Type::string())],
             'url'           => ['type' => Type::string()],
             'class' => [
-                'type'      => GraphQL::type('class'),
+                'type'      => GraphQL::type('Class'),
                 'resolve'   => function($root) {
                     return CharClass::where('url', $root->class['url'])->first();
                 }
             ],
             'subclass' => [
-                'type'      => GraphQL::type('subclass'),
+                'type'      => GraphQL::type('Subclass'),
                 'resolve'   => function($root) {
                     return CharClass::where('url', $root->subclass['url'])->first();
                 }

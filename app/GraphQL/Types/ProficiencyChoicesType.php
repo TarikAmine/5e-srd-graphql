@@ -22,7 +22,7 @@ class ProficiencyChoicesType extends GraphQLType
             'choose' => ['type' => Type::int()],
             'type' => ['type' => Type::string()],
             'from' => [
-                'type' => Type::listOf(GraphQL::type('proficiency')),
+                'type' => Type::listOf(GraphQL::type('Proficiency')),
                 'resolve' => function($root) {
                     return Proficiency::whereIn('url', array_pluck($root['from'], 'url'))->get();
                 }

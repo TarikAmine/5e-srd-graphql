@@ -26,43 +26,43 @@ class ClassType extends GraphQLType
             'name'                  => ['type' => Type::string()],
             'hit_die'               => ['type' => Type::int()],
             'proficiency_choices'   => [
-                'type' => Type::listOf(GraphQL::type('proficiencyChoices')),
+                'type' => Type::listOf(GraphQL::type('ProficiencyChoices')),
                 'resolve' => function($root) {
                     return $root->proficiency_choices;
                 }
             ],
             'proficiencies' => [
-                'type' => Type::listOf(GraphQL::type('proficiency')),
+                'type' => Type::listOf(GraphQL::type('Proficiency')),
                 'resolve' => function($root) {
                     return Proficiency::whereIn('url', array_pluck($root->proficiencies, 'url'))->get();
                 }
             ],
             'saving_throws' => [
-                'type' => Type::listOf(GraphQL::type('abilityScore')),
+                'type' => Type::listOf(GraphQL::type('AbilityScore')),
                 'resolve' => function($root) {
                     return AbilityScore::whereIn('url', array_pluck($root->saving_throws, 'url'))->get();
                 }
             ],
             'starting_equipment' => [
-                'type' => GraphQL::type('startingEquipment'),
+                'type' => GraphQL::type('StartingEquipment'),
                 'resolve' => function($root) {
                     return StartingEquipment::where('url', $root->starting_equipment['url'])->first();
                 }
             ],
             'class_levels' => [
-                'type' => Type::listOf(GraphQL::type('level')),
+                'type' => Type::listOf(GraphQL::type('Level')),
                 'resolve' => function($root) {
                     return SubClass::where('url', 'like', $root->class_levels['url'] . '%')->get();
                 }
             ],
             'subclasses' => [
-                'type' => Type::listOf(GraphQL::type('abilityScore')),
+                'type' => Type::listOf(GraphQL::type('AbilityScore')),
                 'resolve' => function($root) {
                     return SubClass::whereIn('url', array_pluck($root->subclasses, 'url'))->get();
                 }
             ],
             'spellcasting' => [
-                'type' => GraphQL::type('spellcasting'),
+                'type' => GraphQL::type('Spellcasting'),
                 'resolve' => function($root) {
                     return Level::where('url', $root->spellcasting['url'])->first();
                 }

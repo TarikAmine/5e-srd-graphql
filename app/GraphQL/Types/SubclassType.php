@@ -22,7 +22,7 @@ class SubclassType extends GraphQLType
         return [
             'index'         => ['type' => Type::nonNull(Type::string())],
             'class' => [
-                'type' => GraphQL::type('class'),
+                'type' => GraphQL::type('Class'),
                 'resolve' => function($root) {
                     return CharClass::where('url', $root->class['url'])->first();
                 }
@@ -31,7 +31,7 @@ class SubclassType extends GraphQLType
             'subclass_flavor'          => ['type' => Type::string()],
             'desc'          => ['type' => Type::listOf(Type::string())],
             'features' => [
-                'type'      => Type::listOf(GraphQL::type('feature')),
+                'type'      => Type::listOf(GraphQL::type('Feature')),
                 'resolve'   => function($root) {
                     return Feature::whereIn('url', array_pluck($root->features, 'url'))->get();
                 }

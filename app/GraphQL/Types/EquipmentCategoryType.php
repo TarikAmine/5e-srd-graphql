@@ -22,7 +22,7 @@ class EquipmentCategoryType extends GraphQLType
             'index'         => ['type' => Type::nonNull(Type::string())],
             'name'          => ['type' => Type::string()],
             'equipment'     => [
-                'type' => Type::listOf(GraphQL::type('equipment')),
+                'type' => Type::listOf(GraphQL::type('Equipment')),
                 'resolve' => function($root) {
                     return Equipment::whereIn('url', $root->equipment['url'])->get();
                 }

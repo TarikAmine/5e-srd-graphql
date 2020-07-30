@@ -30,7 +30,7 @@ class MonsterType extends GraphQLType
             'hit_points'                => ['type' => Type::int()],
             'hit_dice'                  => ['type' => Type::string()],
             'speed'                    => [
-                'type' => Type::listOf(GraphQL::type('speed')),
+                'type' => Type::listOf(GraphQL::type('Speed')),
                 'resolve' => function($root) {
                     return $root->speed;
                 },
@@ -42,7 +42,7 @@ class MonsterType extends GraphQLType
             'wisdom'                    => ['type' => Type::int()],
             'charisma'                  => ['type' => Type::int()],
             'proficiencies'   => [
-                'type' => Type::listOf(GraphQL::type('monsterProficiency')),
+                'type' => Type::listOf(GraphQL::type('MonsterProficiency')),
                 'resolve' => function($root) {
                     $values = array_pluck($root->proficiencies, 'value', 'url');
                     return Proficiency::query()
@@ -58,13 +58,13 @@ class MonsterType extends GraphQLType
             'damage_resistances'        => ['type' => Type::listOf(Type::string())],
             'damage_immunities'         => ['type' => Type::listOf(Type::string())],
             'condition_immunities'      => [
-                'type' => Type::listOf(GraphQL::type('condition')),
+                'type' => Type::listOf(GraphQL::type('Condition')),
                 'resolve' => function($root) {
                     return Condition::whereIn('url', array_pluck($root->condition_immunities, 'url'))->get();
                 }
             ],
             'senses'                    => [
-                'type' => Type::listOf(GraphQL::type('sense')),
+                'type' => Type::listOf(GraphQL::type('Sense')),
                 'resolve' => function($root) {
                     return $root->senses;
                 },
@@ -72,13 +72,13 @@ class MonsterType extends GraphQLType
             'languages'                 => ['type' => Type::string()],
             'challenge_rating'          => ['type' => Type::int()],
             'special_abilities'                    => [
-                'type' => Type::listOf(GraphQL::type('monsterSpecialAbility')),
+                'type' => Type::listOf(GraphQL::type('MonsterSpecialAbility')),
                 'resolve' => function($root) {
                     return $root->special_abilities;
                 },
             ],
             'actions'                    => [
-                'type' => Type::listOf(GraphQL::type('monsterAction')),
+                'type' => Type::listOf(GraphQL::type('MonsterAction')),
                 'resolve' => function($root) {
                     return $root->actions;
                 },

@@ -22,7 +22,7 @@ class AbilityBonusChoicesType extends GraphQLType
             'choose' => ['type' => Type::int()],
             'type' => ['type' => Type::string()],
             'from' => [
-                'type' => Type::listOf(GraphQL::type('language')),
+                'type' => Type::listOf(GraphQL::type('Language')),
                 'resolve' => function($root) {
                     $bonuses = array_pluck($root->ability_bonuses, 'bonus', 'url');
                     return AbilityScore::query()

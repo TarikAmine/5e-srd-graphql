@@ -22,7 +22,7 @@ class LanguageChoicesType extends GraphQLType
             'choose' => ['type' => Type::int()],
             'type' => ['type' => Type::string()],
             'from' => [
-                'type' => Type::listOf(GraphQL::type('language')),
+                'type' => Type::listOf(GraphQL::type('Language')),
                 'resolve' => function($root) {
                     return Language::whereIn('url', array_pluck($root['from'], 'url'))->get();
                 }

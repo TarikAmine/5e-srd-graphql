@@ -23,13 +23,13 @@ class ProficiencyType extends GraphQLType
             'type'         => ['type' => Type::string()],
             'name'         => ['type' => Type::string()],
             'classes'      => [
-                'type' => Type::listOf(GraphQL::type('class')),
+                'type' => Type::listOf(GraphQL::type('Class')),
                 'resolve' => function($root) {
                     return CharClass::whereIn('url', array_pluck($root->classes ?? [], 'url'))->get();
                 }
             ],
             'races'      => [
-                'type' => Type::listOf(GraphQL::type('race')),
+                'type' => Type::listOf(GraphQL::type('Race')),
                 'resolve' => function($root) {
                     return CharClass::whereIn('url', array_pluck($root->races ?? [], 'url'))->get();
                 }

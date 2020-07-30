@@ -25,7 +25,7 @@ class LevelType extends GraphQLType
             'ability_score_bonuses' => ['type' => Type::int()],
             'prof_bonus'            => ['type' => Type::int()],
             'features' => [
-                'type'      => Type::listOf(GraphQL::type('feature')),
+                'type'      => Type::listOf(GraphQL::type('Feature')),
                 'resolve'   => function($root) {
                     return Feature::whereIn('url', array_pluck($root->features, 'url'))->get();
                 }
@@ -37,13 +37,13 @@ class LevelType extends GraphQLType
                 }
             ],
             'class' => [
-                'type'      => GraphQL::type('class'),
+                'type'      => GraphQL::type('Class'),
                 'resolve'   => function($root) {
                     return CharClass::where('url', $root->class['url'])->first();
                 }
             ],
             'subclass' => [
-                'type'      => GraphQL::type('subclass'),
+                'type'      => GraphQL::type('Subclass'),
                 'resolve'   => function($root) {
                     return SubClass::where('url', $root->subclass['url'])->first();
                 }

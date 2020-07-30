@@ -4,7 +4,6 @@
 namespace App\GraphQL\Types;
 
 use App\Models\CharClass;
-use App\Models\CharClass;
 use App\Models\MagicSchool;
 use App\Models\SubClass;
 use GraphQL\Type\Definition\Type;
@@ -34,19 +33,19 @@ class SpellType extends GraphQLType
             'casting_time'  => ['type' => Type::string()],
             'level'         => ['type' => Type::int()],
             'school' => [
-                'type'          => GraphQL::type('magicSchool'),
+                'type'          => GraphQL::type('MagicSchool'),
                 'resolve'       => function($root) {
                     return MagicSchool::where('url', $root->school['url'])->first();
                 }
             ],
             'classes'      => [
-                'type' => Type::listOf(GraphQL::type('class')),
+                'type' => Type::listOf(GraphQL::type('Class')),
                 'resolve' => function($root) {
                     return CharClass::whereIn('url', array_pluck($root->classes ?? [], 'url'))->get();
                 }
             ],
             'subclasses' => [
-                'type' => Type::listOf(GraphQL::type('abilityScore')),
+                'type' => Type::listOf(GraphQL::type('AbilityScore')),
                 'resolve' => function($root) {
                     return SubClass::whereIn('url', array_pluck($root->subclasses, 'url'))->get();
                 }

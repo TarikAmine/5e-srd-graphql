@@ -22,7 +22,7 @@ class EquipmentType extends GraphQLType
             'index'             => ['type' => Type::nonNull(Type::string())],
             'name'              => ['type' => Type::string()],
             'equipment_category' => [
-                'type' => GraphQL::type('equipmentCategory'),
+                'type' => GraphQL::type('EquipmentCategory'),
                 'resolve' => function($root) {
                     return EquipmentCategory::where('url', $root->equipment_category['url'])->first();
                 }
@@ -31,13 +31,13 @@ class EquipmentType extends GraphQLType
             'weapon_range'      => ['type' => Type::string()],
             'category_range'    => ['type' => Type::string()],
             'cost'              => [
-                'type' => GraphQL::type('cost'),
+                'type' => GraphQL::type('Cost'),
                 'resolve' => function($root) {
                     return $root->cost;
                 },
             ],
             'damage'              => [
-                'type' => GraphQL::type('damage'),
+                'type' => GraphQL::type('Damage'),
                 'resolve' => function($root) {
                     return $root->damage;
                 },

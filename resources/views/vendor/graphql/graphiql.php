@@ -117,12 +117,10 @@
           },
           body: JSON.stringify(graphQLParams),
           credentials: 'include',
-        }).then(function (responseBody) {
-          try {
-            return JSON.parse(responseBody);
-          } catch (error) {
-            return responseBody;
-          }
+        }).then(function (response) {
+          return response.json();
+        }).then(function(data) {
+            return data;
         });
       }
 

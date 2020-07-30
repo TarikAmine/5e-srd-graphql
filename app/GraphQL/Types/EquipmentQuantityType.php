@@ -20,7 +20,7 @@ class EquipmentQuantityType extends GraphQLType
     {
         return [
             'item' => [
-                'type' => GraphQL::type('equipment'),
+                'type' => GraphQL::type('Equipment'),
                 'resolve' => function($root) {
                     return Equipment::where('url', $root['item']['url'])->first();
                 }

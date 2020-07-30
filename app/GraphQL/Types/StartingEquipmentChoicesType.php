@@ -22,7 +22,7 @@ class StartingEquipmentChoicesType extends GraphQLType
             'choose' => ['type' => Type::int()],
             'type' => ['type' => Type::string()],
             'from' => [
-                'type' => Type::listOf(GraphQL::type('equipmentItem')),
+                'type' => Type::listOf(GraphQL::type('EquipmentQuantity')),
                 'resolve' => function($root) {return $root['from'];}
             ],
         ];

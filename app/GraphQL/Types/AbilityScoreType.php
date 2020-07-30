@@ -24,7 +24,7 @@ class AbilityScoreType extends GraphQLType
             'full_name'     => ['type' => Type::string()],
             'desc'          => ['type' => Type::listOf(Type::string())],
             'skills'        => [
-                'type'          => Type::listOf(GraphQL::type('skill')),
+                'type'          => Type::listOf(GraphQL::type('Skill')),
                 'resolve' => function($root) {
                     return Skill::whereIn('url', array_pluck($root->skills, 'url'))->get();
                 }
